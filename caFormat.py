@@ -40,7 +40,7 @@ def toolbox2CA(filename):
     '''Reformats Irina's toolbox txt files.
     Writes to csv file'''
     
-    NEWFILE = filename.split('.')[0] + '.txt'
+    NEWFILE = filename.split('.')[0] + '.csv'
     newlines = ''
     newline = ''
     anonymized = {'1': 'Margaret', '2': 'Joy', '3': 'Robert', '4': 'Sandra', '5': 'Bill', 
